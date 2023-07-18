@@ -98,7 +98,7 @@ nav {
 
 .goat {
 
-    background-image: linear-gradient(rgb(197, 45, 197), rgb(117, 31, 117));
+    background-image: linear-gradient(rgb(255, 144, 255), rgb(82, 0, 82));
     color: transparent;
     -webkit-background-clip: text;
 
@@ -165,7 +165,7 @@ font-style: normal;
 font-weight: 700;
 }
 .funny-videos{
-    background-image: linear-gradient(rgb(197, 45, 197), rgb(117, 31, 117));
+    background-image: linear-gradient(rgb(255, 120, 255), rgb(100, 13, 100));
     color: transparent;
     -webkit-background-clip: text;
 }
@@ -174,8 +174,120 @@ font-weight: 700;
     display: flex;
     margin-left: 60px;
 }
-.card-img{
-   
-   width: 80%;
+.card{
+    text-align: center;
+    
+    
 }
+.card-img{
+    width: 80%;
+    height: 80%;
+ 
+}
+
 /*---------Online game section end here------*/
+
+/*---------play game start here-------*/
+.play-game{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.play-game-text{
+    width: 50%;
+    text-align: right;
+    padding: 150px 50px;
+    
+}
+.play-game-text > h3{
+
+font-size: 2.5em;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 20px;
+
+
+}
+.play{
+    background-image: linear-gradient(rgb(247, 99, 168), rgb(236, 48, 151));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.horse-img{
+    width: 70%;
+   
+    margin-left: 150px;
+   
+}
+
+.angle-img{
+    position: relative;
+    bottom: 300px;
+}
+
+
+
+
+
+
+
+
+
+/*---------play game end here-------*/
+/*---------button start here-------*/
+
+.button-section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.button{
+    
+    display: flex;
+    gap: 10px;
+    width: auto;
+    align-items: center;
+    padding: 5px;
+    
+}
+h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button:hover  {
+    border: 1px solid tomato;
+    border-radius: 50px;
+    color: red;
+    
+}
+.button-box1{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 20px;
+}
+.button-box2{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+
+
+/*---------button end here-------*/
+/*------footer section start here*/
+
+
+
+
+
+
+
+
+/*------footer section end here*/
