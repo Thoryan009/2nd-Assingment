@@ -84,15 +84,12 @@ nav {
 .banner-text {
 
     width: auto;
-    
-
-    
     text-align: left;
     padding: 150px;
 
 }
 
-.banner-text  >  h3 {
+.banner-text>h3 {
     color: #0B0223;
     font-size: 2.5em;
     font-style: normal;
@@ -121,20 +118,21 @@ nav {
 .btn-primary {
     color: white;
     background-color: rgb(233, 78, 130);
-   
+
     margin-top: 15px;
     padding: 20px 30px;
     border: none;
-    border-radius: 35px ;
+    border-radius: 35px;
 }
-.btn-primary-sky{
+
+.btn-primary-sky {
     color: white;
     background-color: rgb(41, 207, 236);
-   
+
     margin-top: 15px;
     padding: 20px 30px;
     border: none;
-    border-radius: 35px ;
+    border-radius: 35px;
     margin-left: 15px;
 }
 
@@ -149,3 +147,35 @@ nav {
 }
 
 /*----------Banner bar end here----------------*/
+/*---------Online game section start here------*/
+
+.online{
+    margin-top: 50px;
+    width: 100%;
+}
+.online-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.online-text > h3 {
+    
+color: #0B0223;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.funny-videos{
+    background-image: linear-gradient(rgb(197, 45, 197), rgb(117, 31, 117));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.online-card{
+    display: flex;
+    margin-left: 60px;
+}
+.card-img{
+   
+   width: 80%;
+}
+/*---------Online game section end here------*/
