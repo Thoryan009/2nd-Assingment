@@ -285,7 +285,7 @@ nav {
 /*---------button start here-------*/
 
 .button-section {
-    width: 99%;
+    width: 90%;
     margin-bottom: 100px;
     
 
@@ -316,9 +316,9 @@ h2 {
 .button-box1 {
 
     display: flex;
-    gap: 30px;
+    gap: 25px;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .button-box2 {
@@ -326,7 +326,7 @@ h2 {
 
     justify-content: center;
     margin-top: 50px;
-    gap: 30px;
+    gap: 25px;
 
 }
 
