@@ -35,7 +35,8 @@
 
 
 .banner-text{
-    padding: 30px;
+    padding:50px;
+    
     
 }
 
@@ -50,6 +51,17 @@
     flex-direction: column;
     gap: 40px;
 }
+
+.background-colour{
+    height: 92%;
+   
+}
+
+
+
+
+
+
 .play-game{
     
     flex-direction: column;
