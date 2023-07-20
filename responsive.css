@@ -51,8 +51,12 @@
 }
 
 .background-colour{
-    height: 92%;
+    height: 88%;
+    left: 5px;
    
+}
+.bgc{
+    height: 92%;
 }
 
 
@@ -120,6 +124,7 @@
 
 .footer{
     width: 100%;
+    gap: 10px
 }
 
 .footer-logo-container,
@@ -127,6 +132,9 @@
 .footer-icons,
 .footer-text>ul, .description-footer-copyright {
     flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .footer-icons{
     display: grid;

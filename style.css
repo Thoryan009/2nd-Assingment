@@ -217,6 +217,7 @@ nav {
     position: absolute;
     top: 0;
     visibility: visible;
+    border: 2px solid red;
 }
 
 /*---------Online game section end here------*/
