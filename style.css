@@ -180,7 +180,8 @@ nav {
 }
 
 .watch-text{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    
     
 }
 .card {
@@ -200,6 +201,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
 }
   
 .background-colour {
