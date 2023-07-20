@@ -150,7 +150,7 @@ nav {
 /*---------Online game section start here------*/
 
 .online {
-    margin-top: 50px;
+    margin-top: 150px;
     width: 100%;
 }
 
@@ -285,8 +285,9 @@ nav {
 /*---------button start here-------*/
 
 .button-section {
-    width: 90%;
+    width: 100%;
     margin-bottom: 100px;
+
     
 
 }
@@ -310,20 +311,21 @@ h2 {
     border: 1px solid tomato;
     border-radius: 50px;
     color: red;
+    width: auto;
+   
 
 }
 
 .button-box1 {
-
+    margin-top: 50px;
     display: flex;
     gap: 25px;
     justify-content: center;
-    padding-left: 15px;
+    
 }
 
 .button-box2 {
-    display: flex;
-
+    display: flex; 
     justify-content: center;
     margin-top: 50px;
     gap: 25px;

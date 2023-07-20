@@ -1,0 +1,121 @@
+@media screen and (min-width:426px) and (max-width:768px) {
+    nav {
+       
+        gap: 80px;
+        
+
+       
+    }
+
+    .nav-menus-container>ul {
+        
+        margin-left: 20px;
+        text-align: center;
+        gap: 20px;
+        width: 100%;
+        
+        
+    }
+    .nav-menus-container{
+        text-align: center;
+    }
+   
+    .nav-logo-container{
+        padding-left: 16px;
+    }
+
+
+    
+.banner{
+    
+    flex-direction: column;
+    
+
+    width: 100%;
+}
+
+
+.banner-text{
+    
+text-align: center;
+padding-top: 50px;
+padding-bottom: 0;
+   
+    
+    
+}
+.banner-img{
+    margin-left: 100px;
+}
+
+
+
+.online-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.background-colour{
+    margin-left: 40px;
+}
+
+
+
+
+.play-game{
+    
+    flex-direction: column;
+}
+.play-game-text{
+    padding-top: 0;
+    width: 100%;
+    
+    text-align: center;
+}
+.play-game-img{
+    
+    margin-left: 80px;
+}
+
+.horse-img {
+    width: 60%;
+    margin-left: 100px;
+}
+.angle-img{
+    width: 30%;
+   bottom: -50px;
+   left: -10px;
+   
+}
+
+
+
+
+
+
+.button-section{
+    width: 100%;
+    
+    margin: 0;
+    padding-bottom: 30px;
+ }
+ 
+ .button-box1{
+     flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+ }
+ .button-box2{
+     flex-wrap: wrap;
+     margin: 0;
+     padding: 0;
+ }
+ .button{
+     width: 30%;
+     margin: 0;
+     padding: 0;
+     gap: 10px;
+     
+ }
+ 
+
+}
