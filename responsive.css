@@ -87,29 +87,32 @@
 
 
 .button-section{
-   width: 100%;
-   
-   margin: 0;
+   width: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin: 30px;
    padding-bottom: 30px;
+   gap: 30px;
 }
 
-.button-box1{
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
-.button-box2{
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
+
 .button{
-    width: 30%;
+    width: auto;
     margin: 0;
-    padding: 0;
-    gap: 10px;
+    padding: 5px;
+    gap: 5px;
     
 }
+.button > img{
+    width: 25%;
+}
+.button > h2{
+    font-size: 0.8em;
+}
+.button:hover{
+    width: 100%;
+}
+
 
 
 

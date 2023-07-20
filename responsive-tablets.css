@@ -92,27 +92,21 @@ padding-bottom: 0;
 
 
 
+
 .button-section{
-    width: 100%;
-    
-    margin: 0;
+    margin: 40px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 30px;
+    gap: 30px;
  }
  
- .button-box1{
-     flex-wrap: wrap;
-     margin: 0;
-     padding: 0;
- }
- .button-box2{
-     flex-wrap: wrap;
-     margin: 0;
-     padding: 0;
- }
+ 
  .button{
-     width: 30%;
+     width: 100%;
      margin: 0;
-     padding: 0;
+     padding: 10px;
      gap: 10px;
      
  }

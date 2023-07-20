@@ -287,7 +287,13 @@ nav {
 .button-section {
     width: 100%;
     margin-bottom: 100px;
-
+    display: flex;
+   flex-wrap: wrap;
+    
+    gap: 80px;
+    justify-content: center;
+    
+  
     
 
 }
@@ -316,21 +322,6 @@ h2 {
 
 }
 
-.button-box1 {
-    margin-top: 50px;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    
-}
-
-.button-box2 {
-    display: flex; 
-    justify-content: center;
-    margin-top: 50px;
-    gap: 25px;
-
-}
 
 
 /*---------button end here-------*/
